@@ -2,9 +2,24 @@ import ProductItem from "./ProductItem";
 import classes from "./Products.module.css";
 
 const DUMMY_PRODUCTS = [
-  { id: "p1", price: 6, title: "My First Book", description: "This is a first product - amazing!" },
-  { id: "p2", price: 12, title: "Cool Caffe", description: "This is the best Caffe in the World" },
-  { id: "p3", price: 352, title: "Computer", description: "My developer Computer" },
+  {
+    id: "p1",
+    price: 6,
+    title: "My First Book",
+    description: "This is a first product - amazing!",
+  },
+  {
+    id: "p2",
+    price: 12,
+    title: "Cool Caffe",
+    description: "This is the best Caffe in the World",
+  },
+  {
+    id: "p3",
+    price: 352,
+    title: "Computer",
+    description: "My developer Computer",
+  },
 ];
 
 const Products = (props) => {
