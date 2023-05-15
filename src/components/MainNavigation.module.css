@@ -4,8 +4,8 @@
   padding: 2rem;
   display: flex;
   justify-content: center;
-  background-color: blueviolet;
 }
+
 .list {
   display: flex;
   gap: 1rem;
@@ -13,7 +13,6 @@
 
 .list a {
   text-decoration: none;
-  font-size: large;
   color: var(--color-primary-400);
 }
 

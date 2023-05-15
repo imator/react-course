@@ -1,6 +1,6 @@
 import MainNavigation from "../components/MainNavigation";
 
-function Error() {
+function ErrorPage() {
   return (
     <>
       <MainNavigation />
@@ -12,4 +12,4 @@ function Error() {
   );
 }
 
-export default Error;
+export default ErrorPage;
