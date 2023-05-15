@@ -23,7 +23,7 @@ function MainNavigation() {
           </li>
           <li>
             <NavLink
-              to="/products"
+              to="products"
               className={({ isActive }) =>
                 isActive ? classes.active : undefined
               }
